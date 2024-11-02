@@ -18,7 +18,7 @@
 #include <iostream>
 #include <queue>
 #include <unordered_map>
-#define PI 3.14159265358979323846
+#define PI 3.1415926535897932384
 
 using namespace cv;
 using namespace std;
