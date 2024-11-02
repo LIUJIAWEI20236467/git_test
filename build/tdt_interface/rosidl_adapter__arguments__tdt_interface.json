@@ -1,0 +1,7 @@
+{
+  "package_name": "tdt_interface",
+  "non_idl_tuples": [
+    "/home/liujiawei/Desktop/schoolmatch_demo/src/tdt_interface:msg/SendData.msg",
+    "/home/liujiawei/Desktop/schoolmatch_demo/src/tdt_interface:msg/ReceiveData.msg"
+  ]
+}

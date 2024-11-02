@@ -1,0 +1,299 @@
+[0.010s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liujiawei/Desktop/schoolmatch_demo/src/tdt_interface -DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.150s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.565s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.677s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.726s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.732s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.744s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.841s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.953s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.996s] -- Found FastRTPS: /opt/ros/humble/include
+[1.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.144s] -- Found Threads: TRUE
+[1.224s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.741s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.007s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.009s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.009s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.009s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.009s]   the cmake_policy command to set the policy and suppress this warning.
+[3.009s] 
+[3.009s] Call Stack (most recent call first):
+[3.009s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.009s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.009s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[3.009s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.010s] [0m
+[3.033s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.034s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.035s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.035s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.035s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.035s]   the cmake_policy command to set the policy and suppress this warning.
+[3.035s] 
+[3.035s] Call Stack (most recent call first):
+[3.035s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.035s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.035s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.035s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[3.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.035s] [0m
+[3.059s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.059s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.059s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.059s]   the cmake_policy command to set the policy and suppress this warning.
+[3.059s] 
+[3.060s] Call Stack (most recent call first):
+[3.060s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.060s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.060s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.060s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[3.060s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.060s] [0m
+[3.066s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.066s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.066s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.091s] -- Found PythonExtra: .so
+[3.154s] -- Configuring done (3.1s)
+[3.200s] -- Generating done (0.0s)
+[3.200s] -- Build files have been written to: /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface
+[3.212s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liujiawei/Desktop/schoolmatch_demo/src/tdt_interface -DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface
+[3.215s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface -- -j32 -l32
+[3.245s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.254s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.257s] [  5%] Built target ament_cmake_python_copy_tdt_interface
+[3.495s] running egg_info
+[3.496s] creating tdt_interface.egg-info
+[3.496s] writing tdt_interface.egg-info/PKG-INFO
+[3.496s] writing dependency_links to tdt_interface.egg-info/dependency_links.txt
+[3.496s] writing top-level names to tdt_interface.egg-info/top_level.txt
+[3.496s] writing manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.498s] reading manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.498s] writing manifest file 'tdt_interface.egg-info/SOURCES.txt'
+[3.523s] [  5%] Built target ament_cmake_python_build_tdt_interface_egg
+[3.586s] [  5%] Built target tdt_interface__cpp
+[3.593s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.594s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.594s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.597s] [ 15%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/send_data__functions.c.o[0m
+[3.598s] [ 17%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/receive_data__functions.c.o[0m
+[3.646s] [ 20%] [32m[1mLinking C shared library libtdt_interface__rosidl_generator_c.so[0m
+[3.691s] [ 20%] Built target tdt_interface__rosidl_generator_c
+[3.699s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.700s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.700s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.887s] [ 30%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/send_data__type_support.cpp.o[0m
+[3.889s] [ 33%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/receive_data__type_support.cpp.o[0m
+[3.903s] [ 35%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/send_data__type_support.cpp.o[0m
+[3.905s] [ 38%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/receive_data__type_support.cpp.o[0m
+[3.920s] [ 41%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/send_data__type_support.cpp.o[0m
+[3.921s] [ 43%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/receive_data__type_support.cpp.o[0m
+[3.993s] [ 46%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/receive_data__type_support.cpp.o[0m
+[3.994s] [ 48%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/send_data__type_support.cpp.o[0m
+[4.026s] [ 51%] [32m[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_c.so[0m
+[4.037s] [ 56%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/send_data__type_support_c.cpp.o[0m
+[4.037s] [ 56%] [32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/receive_data__type_support_c.cpp.o[0m
+[4.067s] [ 56%] Built target tdt_interface__rosidl_typesupport_c
+[4.126s] [ 58%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/send_data__type_support.c.o[0m
+[4.126s] [ 61%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/receive_data__type_support.c.o[0m
+[4.143s] [ 64%] [32m[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_cpp.so[0m
+[4.171s] [ 66%] [32m[1mLinking C shared library libtdt_interface__rosidl_typesupport_introspection_c.so[0m
+[4.192s] [ 66%] Built target tdt_interface__rosidl_typesupport_cpp
+[4.209s] [ 66%] Built target tdt_interface__rosidl_typesupport_introspection_c
+[4.294s] [ 69%] [32m[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.377s] [ 69%] Built target tdt_interface__rosidl_typesupport_fastrtps_cpp
+[4.401s] [ 71%] [32m[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_c.so[0m
+[4.423s] [ 74%] [32m[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_introspection_cpp.so[0m
+[4.477s] [ 74%] Built target tdt_interface__rosidl_typesupport_fastrtps_c
+[4.488s] [ 74%] Built target tdt_interface__rosidl_typesupport_introspection_cpp
+[4.507s] [ 74%] Built target tdt_interface
+[4.530s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.990s] [ 76%] Built target tdt_interface__py
+[5.006s] [ 79%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_send_data_s.c.o[0m
+[5.006s] [ 82%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_receive_data_s.c.o[0m
+[5.113s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/tdt_interface/libtdt_interface__rosidl_generator_py.so[0m
+[5.153s] [ 84%] Built target tdt_interface__rosidl_generator_py
+[5.169s] [ 87%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.169s] [ 89%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.171s] [ 92%] [32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[5.272s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.272s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.273s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.307s] [100%] Built target tdt_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.308s] [100%] Built target tdt_interface__rosidl_typesupport_c__pyext
+[5.314s] [100%] Built target tdt_interface__rosidl_typesupport_introspection_c__pyext
+[5.323s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface -- -j32 -l32
+[5.476s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface
+[5.480s] -- Install configuration: ""
+[5.480s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/rosidl_interfaces/tdt_interface
+[5.480s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.481s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.481s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.h
+[5.481s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.481s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__functions.h
+[5.481s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.h
+[5.482s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__functions.c
+[5.482s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__functions.h
+[5.482s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__functions.c
+[5.482s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.h
+[5.482s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.h
+[5.483s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__struct.h
+[5.483s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_generator_c__visibility_control.h
+[5.483s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/receive_data.h
+[5.483s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/library_path.sh
+[5.483s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/library_path.dsv
+[5.484s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so
+[5.484s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so" to ""
+[5.484s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.484s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.484s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.484s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_fastrtps_c.h
+[5.485s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_c.h
+[5.485s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.485s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so
+[5.485s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.485s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.485s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/receive_data.hpp
+[5.486s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__builder.hpp
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__builder.hpp
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.hpp
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__struct.hpp
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__traits.hpp
+[5.486s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__traits.hpp
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.hpp
+[5.487s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.487s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.487s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/dds_fastrtps
+[5.487s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.487s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.487s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.487s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.488s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_c.h
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.c
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_introspection_c.h
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.c
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so
+[5.488s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so
+[5.488s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so" to ""
+[5.488s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface
+[5.488s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg
+[5.488s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.cpp
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_cpp.hpp
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.cpp
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_introspection_cpp.hpp
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so
+[5.488s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.488s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so
+[5.489s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so" to ""
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/pythonpath.sh
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/pythonpath.dsv
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/PKG-INFO
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/SOURCES.txt
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/dependency_links.txt
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/top_level.txt
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data_s.c
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/__init__.py
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data.py
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data_s.c
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data.py
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/__init__.py
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.489s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c
+[5.490s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/libtdt_interface__rosidl_generator_py.so
+[5.490s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.525s] Listing '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface'...
+[5.525s] Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/__init__.py'...
+[5.525s] Listing '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg'...
+[5.525s] Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/__init__.py'...
+[5.526s] Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data.py'...
+[5.526s] Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data.py'...
+[5.531s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.531s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.531s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.531s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.531s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.532s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.532s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so
+[5.532s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so" to ""
+[5.532s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/SendData.idl
+[5.532s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/ReceiveData.idl
+[5.532s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/SendData.msg
+[5.532s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/ReceiveData.msg
+[5.532s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg
+[5.532s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg/SendData.msg
+[5.532s] -- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg/ReceiveData.msg
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/package_run_dependencies/tdt_interface
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/parent_prefix_path/tdt_interface
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.sh
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.dsv
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/path.sh
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/path.dsv
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.bash
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.sh
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.zsh
+[5.533s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.dsv
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/package.dsv
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/packages/tdt_interface
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport.cmake
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport-noconfig.cmake
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.534s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cppExport.cmake
+[5.535s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.535s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.535s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.535s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.536s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig.cmake
+[5.537s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig-version.cmake
+[5.538s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/package.xml
+[5.538s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface

@@ -1,0 +1,10 @@
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/uninstall.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/auto_shoot_uninstall.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/auto_shoot_node.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/test.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/edit_cache.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/rebuild_cache.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/list_install_components.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/install.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/install/local.dir
+/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot/CMakeFiles/install/strip.dir

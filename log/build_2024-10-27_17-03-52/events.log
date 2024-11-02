@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.000787] (tdt_interface) JobQueued: {'identifier': 'tdt_interface', 'dependencies': OrderedDict()}
+[0.000967] (auto_shoot) JobQueued: {'identifier': 'auto_shoot', 'dependencies': OrderedDict([('tdt_interface', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface')])}
+[0.001125] (tdt_interface) JobStarted: {'identifier': 'tdt_interface'}
+[0.009529] (tdt_interface) JobProgress: {'identifier': 'tdt_interface', 'progress': 'cmake'}
+[0.009898] (tdt_interface) Command: {'cmd': ['/usr/local/bin/cmake', '/home/liujiawei/Desktop/schoolmatch_demo/src/tdt_interface', '-DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.085885] (tdt_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099639] (-) TimerEvent: {}
+[0.151018] (tdt_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.164267] (tdt_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199775] (-) TimerEvent: {}
+[0.253738] (tdt_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.272194] (tdt_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.272511] (tdt_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.273028] (tdt_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.278672] (tdt_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299882] (-) TimerEvent: {}
+[0.359511] (tdt_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.381039] (tdt_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.381396] (tdt_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.382185] (tdt_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.384669] (tdt_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399977] (-) TimerEvent: {}
+[0.500269] (-) TimerEvent: {}
+[0.565781] (tdt_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.600368] (-) TimerEvent: {}
+[0.677887] (tdt_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700481] (-) TimerEvent: {}
+[0.727104] (tdt_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.733271] (tdt_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.744902] (tdt_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.761423] (tdt_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.782469] (tdt_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800560] (-) TimerEvent: {}
+[0.839708] (tdt_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.842333] (tdt_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900723] (-) TimerEvent: {}
+[0.954294] (tdt_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.997438] (tdt_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.000795] (-) TimerEvent: {}
+[1.045320] (tdt_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.053997] (tdt_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100983] (-) TimerEvent: {}
+[1.143554] (tdt_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.145044] (tdt_interface) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.201117] (-) TimerEvent: {}
+[1.225468] (tdt_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.301224] (-) TimerEvent: {}
+[1.401572] (-) TimerEvent: {}
+[1.501851] (-) TimerEvent: {}
+[1.602121] (-) TimerEvent: {}
+[1.702443] (-) TimerEvent: {}
+[1.741762] (tdt_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.802596] (-) TimerEvent: {}
+[1.902951] (-) TimerEvent: {}
+[2.003384] (-) TimerEvent: {}
+[2.103762] (-) TimerEvent: {}
+[2.204166] (-) TimerEvent: {}
+[2.304633] (-) TimerEvent: {}
+[2.404923] (-) TimerEvent: {}
+[2.505219] (-) TimerEvent: {}
+[2.605510] (-) TimerEvent: {}
+[2.637995] (tdt_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.705639] (-) TimerEvent: {}
+[2.805955] (-) TimerEvent: {}
+[2.906284] (-) TimerEvent: {}
+[3.006620] (-) TimerEvent: {}
+[3.007599] (tdt_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.009933] (tdt_interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[3.010131] (tdt_interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.010199] (tdt_interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.010251] (tdt_interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.010302] (tdt_interface) StderrLine: {'line': b'\n'}
+[3.010354] (tdt_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.010409] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.010460] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.010508] (tdt_interface) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[3.010559] (tdt_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.010616] (tdt_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[3.034021] (tdt_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[3.035364] (tdt_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.035775] (tdt_interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[3.035915] (tdt_interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.035979] (tdt_interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.036032] (tdt_interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.036101] (tdt_interface) StderrLine: {'line': b'\n'}
+[3.036154] (tdt_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.036218] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.036269] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.036317] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.036363] (tdt_interface) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[3.036411] (tdt_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.036458] (tdt_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[3.060204] (tdt_interface) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[3.060384] (tdt_interface) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.060451] (tdt_interface) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.060517] (tdt_interface) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.060570] (tdt_interface) StderrLine: {'line': b'\n'}
+[3.060621] (tdt_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.060670] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.060718] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.060764] (tdt_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.060811] (tdt_interface) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[3.060857] (tdt_interface) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.060903] (tdt_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[3.067220] (tdt_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[3.067398] (tdt_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.067461] (tdt_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.067515] (tdt_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.091725] (tdt_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[3.106745] (-) TimerEvent: {}
+[3.154573] (tdt_interface) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.200936] (tdt_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.201338] (tdt_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface\n'}
+[3.206839] (-) TimerEvent: {}
+[3.213011] (tdt_interface) CommandEnded: {'returncode': 0}
+[3.214027] (tdt_interface) JobProgress: {'identifier': 'tdt_interface', 'progress': 'build'}
+[3.214839] (tdt_interface) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface', '--', '-j32', '-l32'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.246181] (tdt_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.254734] (tdt_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.258422] (tdt_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_tdt_interface\n'}
+[3.306943] (-) TimerEvent: {}
+[3.407257] (-) TimerEvent: {}
+[3.495695] (tdt_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.496609] (tdt_interface) StdoutLine: {'line': b'creating tdt_interface.egg-info\n'}
+[3.496854] (tdt_interface) StdoutLine: {'line': b'writing tdt_interface.egg-info/PKG-INFO\n'}
+[3.497001] (tdt_interface) StdoutLine: {'line': b'writing dependency_links to tdt_interface.egg-info/dependency_links.txt\n'}
+[3.497218] (tdt_interface) StdoutLine: {'line': b'writing top-level names to tdt_interface.egg-info/top_level.txt\n'}
+[3.497308] (tdt_interface) StdoutLine: {'line': b"writing manifest file 'tdt_interface.egg-info/SOURCES.txt'\n"}
+[3.499106] (tdt_interface) StdoutLine: {'line': b"reading manifest file 'tdt_interface.egg-info/SOURCES.txt'\n"}
+[3.499538] (tdt_interface) StdoutLine: {'line': b"writing manifest file 'tdt_interface.egg-info/SOURCES.txt'\n"}
+[3.507358] (-) TimerEvent: {}
+[3.523775] (tdt_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_tdt_interface_egg\n'}
+[3.586647] (tdt_interface) StdoutLine: {'line': b'[  5%] Built target tdt_interface__cpp\n'}
+[3.594173] (tdt_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.594542] (tdt_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.594717] (tdt_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.597901] (tdt_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/send_data__functions.c.o\x1b[0m\n'}
+[3.598639] (tdt_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_c.dir/rosidl_generator_c/tdt_interface/msg/detail/receive_data__functions.c.o\x1b[0m\n'}
+[3.607448] (-) TimerEvent: {}
+[3.646566] (tdt_interface) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtdt_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.692222] (tdt_interface) StdoutLine: {'line': b'[ 20%] Built target tdt_interface__rosidl_generator_c\n'}
+[3.699472] (tdt_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.700637] (tdt_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.700980] (tdt_interface) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.707565] (-) TimerEvent: {}
+[3.807941] (-) TimerEvent: {}
+[3.887777] (tdt_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/send_data__type_support.cpp.o\x1b[0m\n'}
+[3.889614] (tdt_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tdt_interface/msg/receive_data__type_support.cpp.o\x1b[0m\n'}
+[3.904092] (tdt_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/send_data__type_support.cpp.o\x1b[0m\n'}
+[3.906315] (tdt_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tdt_interface/msg/detail/receive_data__type_support.cpp.o\x1b[0m\n'}
+[3.908019] (-) TimerEvent: {}
+[3.920888] (tdt_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/send_data__type_support.cpp.o\x1b[0m\n'}
+[3.921655] (tdt_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tdt_interface/msg/detail/dds_fastrtps/receive_data__type_support.cpp.o\x1b[0m\n'}
+[3.994247] (tdt_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/receive_data__type_support.cpp.o\x1b[0m\n'}
+[3.995286] (tdt_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/tdt_interface/msg/send_data__type_support.cpp.o\x1b[0m\n'}
+[4.008183] (-) TimerEvent: {}
+[4.027129] (tdt_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.038105] (tdt_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/send_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.038453] (tdt_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tdt_interface/msg/detail/receive_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.068014] (tdt_interface) StdoutLine: {'line': b'[ 56%] Built target tdt_interface__rosidl_typesupport_c\n'}
+[4.108352] (-) TimerEvent: {}
+[4.126764] (tdt_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/send_data__type_support.c.o\x1b[0m\n'}
+[4.127145] (tdt_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tdt_interface/msg/detail/receive_data__type_support.c.o\x1b[0m\n'}
+[4.143408] (tdt_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.172022] (tdt_interface) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libtdt_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.193368] (tdt_interface) StdoutLine: {'line': b'[ 66%] Built target tdt_interface__rosidl_typesupport_cpp\n'}
+[4.208481] (-) TimerEvent: {}
+[4.209969] (tdt_interface) StdoutLine: {'line': b'[ 66%] Built target tdt_interface__rosidl_typesupport_introspection_c\n'}
+[4.295273] (tdt_interface) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.308638] (-) TimerEvent: {}
+[4.377830] (tdt_interface) StdoutLine: {'line': b'[ 69%] Built target tdt_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.402304] (tdt_interface) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.408735] (-) TimerEvent: {}
+[4.423884] (tdt_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtdt_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.478327] (tdt_interface) StdoutLine: {'line': b'[ 74%] Built target tdt_interface__rosidl_typesupport_fastrtps_c\n'}
+[4.488975] (tdt_interface) StdoutLine: {'line': b'[ 74%] Built target tdt_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.507956] (tdt_interface) StdoutLine: {'line': b'[ 74%] Built target tdt_interface\n'}
+[4.508831] (-) TimerEvent: {}
+[4.530827] (tdt_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.608980] (-) TimerEvent: {}
+[4.709343] (-) TimerEvent: {}
+[4.809692] (-) TimerEvent: {}
+[4.909990] (-) TimerEvent: {}
+[4.990807] (tdt_interface) StdoutLine: {'line': b'[ 76%] Built target tdt_interface__py\n'}
+[5.006517] (tdt_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_send_data_s.c.o\x1b[0m\n'}
+[5.006745] (tdt_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_generator_py.dir/rosidl_generator_py/tdt_interface/msg/_receive_data_s.c.o\x1b[0m\n'}
+[5.010084] (-) TimerEvent: {}
+[5.110385] (-) TimerEvent: {}
+[5.113490] (tdt_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tdt_interface/libtdt_interface__rosidl_generator_py.so\x1b[0m\n'}
+[5.154227] (tdt_interface) StdoutLine: {'line': b'[ 84%] Built target tdt_interface__rosidl_generator_py\n'}
+[5.169953] (tdt_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.170194] (tdt_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.171824] (tdt_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tdt_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.210518] (-) TimerEvent: {}
+[5.273172] (tdt_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.273531] (tdt_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.274573] (tdt_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.307822] (tdt_interface) StdoutLine: {'line': b'[100%] Built target tdt_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.308968] (tdt_interface) StdoutLine: {'line': b'[100%] Built target tdt_interface__rosidl_typesupport_c__pyext\n'}
+[5.310630] (-) TimerEvent: {}
+[5.315261] (tdt_interface) StdoutLine: {'line': b'[100%] Built target tdt_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[5.323778] (tdt_interface) CommandEnded: {'returncode': 0}
+[5.410742] (-) TimerEvent: {}
+[5.470672] (tdt_interface) JobProgress: {'identifier': 'tdt_interface', 'progress': 'install'}
+[5.476219] (tdt_interface) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/tdt_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.480532] (tdt_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.480846] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/rosidl_interfaces/tdt_interface\n'}
+[5.481089] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.481479] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.481710] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.h\n'}
+[5.481890] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.482085] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__functions.h\n'}
+[5.482232] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.h\n'}
+[5.482678] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__functions.c\n'}
+[5.482815] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__functions.h\n'}
+[5.483021] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__functions.c\n'}
+[5.483235] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.h\n'}
+[5.483439] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.h\n'}
+[5.483619] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__struct.h\n'}
+[5.483830] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.483999] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/receive_data.h\n'}
+[5.484184] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/library_path.sh\n'}
+[5.484392] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/library_path.dsv\n'}
+[5.484614] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so\n'}
+[5.484781] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_c.so" to ""\n'}
+[5.484913] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.485090] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.485232] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.485426] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.485602] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.485781] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.485909] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.486088] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.486229] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.486410] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.486575] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/receive_data.hpp\n'}
+[5.486750] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.486926] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__builder.hpp\n'}
+[5.487107] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__builder.hpp\n'}
+[5.487338] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__struct.hpp\n'}
+[5.487423] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__struct.hpp\n'}
+[5.487528] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__traits.hpp\n'}
+[5.487589] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__traits.hpp\n'}
+[5.487644] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/send_data.hpp\n'}
+[5.487701] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.487756] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.488088] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.488207] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.488279] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.488333] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.488387] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/dds_fastrtps\n'}
+[5.488440] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.488493] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.488542] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.488591] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.488645] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.488695] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.488745] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_c.h\n'}
+[5.488793] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.c\n'}
+[5.488840] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_introspection_c.h\n'}
+[5.488888] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.c\n'}
+[5.488935] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.488983] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.489031] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so\n'}
+[5.489083] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_c.so" to ""\n'}
+[5.489132] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface\n'}
+[5.489179] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg\n'}
+[5.489228] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail\n'}
+[5.489279] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__type_support.cpp\n'}
+[5.489328] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.489375] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/send_data__type_support.cpp\n'}
+[5.489422] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/include/tdt_interface/tdt_interface/msg/detail/receive_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.489470] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[5.489519] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.489571] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so\n'}
+[5.489622] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[5.489671] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/pythonpath.sh\n'}
+[5.489719] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/pythonpath.dsv\n'}
+[5.489769] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info\n'}
+[5.489819] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[5.489869] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[5.489916] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[5.489962] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[5.490009] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface\n'}
+[5.490067] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.490118] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.490165] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg\n'}
+[5.490212] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data_s.c\n'}
+[5.490258] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/__init__.py\n'}
+[5.490305] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data.py\n'}
+[5.490351] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data_s.c\n'}
+[5.490399] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data.py\n'}
+[5.490444] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/__init__.py\n'}
+[5.490490] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.490541] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.490598] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/_tdt_interface_s.ep.rosidl_typesupport_c.c\n'}
+[5.490646] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/libtdt_interface__rosidl_generator_py.so\n'}
+[5.490694] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.511142] (-) TimerEvent: {}
+[5.526223] (tdt_interface) StdoutLine: {'line': b"Listing '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface'...\n"}
+[5.526422] (tdt_interface) StdoutLine: {'line': b"Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/__init__.py'...\n"}
+[5.526492] (tdt_interface) StdoutLine: {'line': b"Listing '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg'...\n"}
+[5.526553] (tdt_interface) StdoutLine: {'line': b"Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/__init__.py'...\n"}
+[5.526608] (tdt_interface) StdoutLine: {'line': b"Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_receive_data.py'...\n"}
+[5.526663] (tdt_interface) StdoutLine: {'line': b"Compiling '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/msg/_send_data.py'...\n"}
+[5.531753] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.531904] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.532027] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.532317] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.532482] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.532638] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages/tdt_interface/tdt_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.532711] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so\n'}
+[5.532967] (tdt_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib/libtdt_interface__rosidl_generator_py.so" to ""\n'}
+[5.533050] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/SendData.idl\n'}
+[5.533196] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/ReceiveData.idl\n'}
+[5.533280] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/SendData.msg\n'}
+[5.533354] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/msg/ReceiveData.msg\n'}
+[5.533435] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg\n'}
+[5.533536] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg/SendData.msg\n'}
+[5.533592] (tdt_interface) StdoutLine: {'line': b'-- Up-to-date: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface//msg/ReceiveData.msg\n'}
+[5.533645] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/package_run_dependencies/tdt_interface\n'}
+[5.533770] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/parent_prefix_path/tdt_interface\n'}
+[5.533896] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.sh\n'}
+[5.534022] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/ament_prefix_path.dsv\n'}
+[5.534138] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/path.sh\n'}
+[5.534222] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/environment/path.dsv\n'}
+[5.534281] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.bash\n'}
+[5.534336] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.sh\n'}
+[5.534443] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.zsh\n'}
+[5.534563] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/local_setup.dsv\n'}
+[5.534623] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/package.dsv\n'}
+[5.534679] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/ament_index/resource_index/packages/tdt_interface\n'}
+[5.534774] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport.cmake\n'}
+[5.534878] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.534939] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.535034] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.535385] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_cppExport.cmake\n'}
+[5.535585] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.535790] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.535974] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.536321] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.536771] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.536921] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.536990] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.537048] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.537323] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.537409] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.537467] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport.cmake\n'}
+[5.537520] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/export_tdt_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.537584] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.537635] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.537693] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.537743] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.537792] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.537840] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.537894] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.537943] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig.cmake\n'}
+[5.537991] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake/tdt_interfaceConfig-version.cmake\n'}
+[5.538523] (tdt_interface) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/package.xml\n'}
+[5.539166] (tdt_interface) CommandEnded: {'returncode': 0}
+[5.611238] (-) TimerEvent: {}
+[5.691432] (tdt_interface) JobEnded: {'identifier': 'tdt_interface', 'rc': 0}
+[5.692597] (auto_shoot) JobStarted: {'identifier': 'auto_shoot'}
+[5.702157] (auto_shoot) JobProgress: {'identifier': 'auto_shoot', 'progress': 'cmake'}
+[5.702447] (auto_shoot) Command: {'cmd': ['/usr/local/bin/cmake', '/home/liujiawei/Desktop/schoolmatch_demo/src/auto_shoot', '-DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble')]), 'shell': False}
+[5.711412] (-) TimerEvent: {}
+[5.757813] (auto_shoot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.811522] (-) TimerEvent: {}
+[5.823716] (auto_shoot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.837733] (auto_shoot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.911733] (-) TimerEvent: {}
+[5.926547] (auto_shoot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.945808] (auto_shoot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.946154] (auto_shoot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.946644] (auto_shoot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.951285] (auto_shoot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.011905] (-) TimerEvent: {}
+[6.046545] (auto_shoot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.066262] (auto_shoot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.066692] (auto_shoot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.067345] (auto_shoot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.069640] (auto_shoot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.112008] (-) TimerEvent: {}
+[6.212328] (-) TimerEvent: {}
+[6.231951] (auto_shoot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[6.312433] (-) TimerEvent: {}
+[6.328786] (auto_shoot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.375819] (auto_shoot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.380831] (auto_shoot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.390260] (auto_shoot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.404766] (auto_shoot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.412550] (-) TimerEvent: {}
+[6.424103] (auto_shoot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.477507] (auto_shoot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.480246] (auto_shoot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.512657] (-) TimerEvent: {}
+[6.588646] (auto_shoot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[6.612841] (-) TimerEvent: {}
+[6.620648] (auto_shoot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[6.669327] (auto_shoot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.677916] (auto_shoot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.712981] (-) TimerEvent: {}
+[6.767249] (auto_shoot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.768777] (auto_shoot) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[6.813109] (-) TimerEvent: {}
+[6.843078] (auto_shoot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.890610] (auto_shoot) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.913280] (-) TimerEvent: {}
+[6.918632] (auto_shoot) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.928844] (auto_shoot) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.7.0")\n'}
+[6.929322] (auto_shoot) StdoutLine: {'line': b'-- Found tdt_interface: 0.0.1 (/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake)\n'}
+[7.013384] (-) TimerEvent: {}
+[7.026721] (auto_shoot) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[7.041637] (auto_shoot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.042029] (auto_shoot) StdoutLine: {'line': b'-- Build files have been written to: /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot\n'}
+[7.052203] (auto_shoot) CommandEnded: {'returncode': 0}
+[7.052908] (auto_shoot) JobProgress: {'identifier': 'auto_shoot', 'progress': 'build'}
+[7.053270] (auto_shoot) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot', '--', '-j32', '-l32'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble')]), 'shell': False}
+[7.091791] (auto_shoot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/auto_shoot_node.dir/src/autoShoot.cpp.o\x1b[0m\n'}
+[7.113512] (-) TimerEvent: {}
+[7.213823] (-) TimerEvent: {}
+[7.314123] (-) TimerEvent: {}
+[7.414400] (-) TimerEvent: {}
+[7.514689] (-) TimerEvent: {}
+[7.615035] (-) TimerEvent: {}
+[7.715370] (-) TimerEvent: {}
+[7.815668] (-) TimerEvent: {}
+[7.915992] (-) TimerEvent: {}
+[8.016337] (-) TimerEvent: {}
+[8.116645] (-) TimerEvent: {}
+[8.216919] (-) TimerEvent: {}
+[8.317222] (-) TimerEvent: {}
+[8.417540] (-) TimerEvent: {}
+[8.517804] (-) TimerEvent: {}
+[8.618116] (-) TimerEvent: {}
+[8.718453] (-) TimerEvent: {}
+[8.818765] (-) TimerEvent: {}
+[8.919156] (-) TimerEvent: {}
+[9.019514] (-) TimerEvent: {}
+[9.119857] (-) TimerEvent: {}
+[9.220328] (-) TimerEvent: {}
+[9.320622] (-) TimerEvent: {}
+[9.421045] (-) TimerEvent: {}
+[9.521372] (-) TimerEvent: {}
+[9.621767] (-) TimerEvent: {}
+[9.722089] (-) TimerEvent: {}
+[9.822385] (-) TimerEvent: {}
+[9.922672] (-) TimerEvent: {}
+[10.022949] (-) TimerEvent: {}
+[10.123237] (-) TimerEvent: {}
+[10.223521] (-) TimerEvent: {}
+[10.323836] (-) TimerEvent: {}
+[10.424149] (-) TimerEvent: {}
+[10.524467] (-) TimerEvent: {}
+[10.624791] (-) TimerEvent: {}
+[10.725221] (-) TimerEvent: {}
+[10.825598] (-) TimerEvent: {}
+[10.925919] (-) TimerEvent: {}
+[11.026220] (-) TimerEvent: {}
+[11.126534] (-) TimerEvent: {}
+[11.226856] (-) TimerEvent: {}
+[11.327149] (-) TimerEvent: {}
+[11.427437] (-) TimerEvent: {}
+[11.527767] (-) TimerEvent: {}
+[11.628139] (-) TimerEvent: {}
+[11.728453] (-) TimerEvent: {}
+[11.828819] (-) TimerEvent: {}
+[11.929128] (-) TimerEvent: {}
+[12.029430] (-) TimerEvent: {}
+[12.129709] (-) TimerEvent: {}
+[12.229997] (-) TimerEvent: {}
+[12.330344] (-) TimerEvent: {}
+[12.430643] (-) TimerEvent: {}
+[12.531004] (-) TimerEvent: {}
+[12.631382] (-) TimerEvent: {}
+[12.731745] (-) TimerEvent: {}
+[12.832073] (-) TimerEvent: {}
+[12.932432] (-) TimerEvent: {}
+[13.032726] (-) TimerEvent: {}
+[13.133009] (-) TimerEvent: {}
+[13.233311] (-) TimerEvent: {}
+[13.333596] (-) TimerEvent: {}
+[13.433883] (-) TimerEvent: {}
+[13.534186] (-) TimerEvent: {}
+[13.634498] (-) TimerEvent: {}
+[13.734827] (-) TimerEvent: {}
+[13.835138] (-) TimerEvent: {}
+[13.935465] (-) TimerEvent: {}
+[14.035779] (-) TimerEvent: {}
+[14.136185] (-) TimerEvent: {}
+[14.236488] (-) TimerEvent: {}
+[14.336773] (-) TimerEvent: {}
+[14.437068] (-) TimerEvent: {}
+[14.537425] (-) TimerEvent: {}
+[14.637783] (-) TimerEvent: {}
+[14.738154] (-) TimerEvent: {}
+[14.838571] (-) TimerEvent: {}
+[14.938897] (-) TimerEvent: {}
+[15.039235] (-) TimerEvent: {}
+[15.139629] (-) TimerEvent: {}
+[15.239999] (-) TimerEvent: {}
+[15.340296] (-) TimerEvent: {}
+[15.440585] (-) TimerEvent: {}
+[15.540904] (-) TimerEvent: {}
+[15.641310] (-) TimerEvent: {}
+[15.741737] (-) TimerEvent: {}
+[15.842188] (-) TimerEvent: {}
+[15.942578] (-) TimerEvent: {}
+[16.042921] (-) TimerEvent: {}
+[16.143250] (-) TimerEvent: {}
+[16.243544] (-) TimerEvent: {}
+[16.343860] (-) TimerEvent: {}
+[16.444250] (-) TimerEvent: {}
+[16.544567] (-) TimerEvent: {}
+[16.644866] (-) TimerEvent: {}
+[16.745173] (-) TimerEvent: {}
+[16.845544] (-) TimerEvent: {}
+[16.945926] (-) TimerEvent: {}
+[17.046256] (-) TimerEvent: {}
+[17.146592] (-) TimerEvent: {}
+[17.246910] (-) TimerEvent: {}
+[17.347218] (-) TimerEvent: {}
+[17.447514] (-) TimerEvent: {}
+[17.547819] (-) TimerEvent: {}
+[17.648252] (-) TimerEvent: {}
+[17.748599] (-) TimerEvent: {}
+[17.848948] (-) TimerEvent: {}
+[17.949294] (-) TimerEvent: {}
+[18.049648] (-) TimerEvent: {}
+[18.150000] (-) TimerEvent: {}
+[18.250346] (-) TimerEvent: {}
+[18.350651] (-) TimerEvent: {}
+[18.450950] (-) TimerEvent: {}
+[18.551250] (-) TimerEvent: {}
+[18.651573] (-) TimerEvent: {}
+[18.751844] (-) TimerEvent: {}
+[18.852145] (-) TimerEvent: {}
+[18.952462] (-) TimerEvent: {}
+[19.052754] (-) TimerEvent: {}
+[19.153100] (-) TimerEvent: {}
+[19.253440] (-) TimerEvent: {}
+[19.353797] (-) TimerEvent: {}
+[19.454088] (-) TimerEvent: {}
+[19.554364] (-) TimerEvent: {}
+[19.654680] (-) TimerEvent: {}
+[19.754968] (-) TimerEvent: {}
+[19.855267] (-) TimerEvent: {}
+[19.955544] (-) TimerEvent: {}
+[20.055866] (-) TimerEvent: {}
+[20.156243] (-) TimerEvent: {}
+[20.256562] (-) TimerEvent: {}
+[20.356905] (-) TimerEvent: {}
+[20.457243] (-) TimerEvent: {}
+[20.557544] (-) TimerEvent: {}
+[20.657851] (-) TimerEvent: {}
+[20.758209] (-) TimerEvent: {}
+[20.858518] (-) TimerEvent: {}
+[20.958806] (-) TimerEvent: {}
+[21.059175] (-) TimerEvent: {}
+[21.159530] (-) TimerEvent: {}
+[21.259837] (-) TimerEvent: {}
+[21.360218] (-) TimerEvent: {}
+[21.460532] (-) TimerEvent: {}
+[21.560833] (-) TimerEvent: {}
+[21.661140] (-) TimerEvent: {}
+[21.761443] (-) TimerEvent: {}
+[21.861870] (-) TimerEvent: {}
+[21.962132] (-) TimerEvent: {}
+[22.062436] (-) TimerEvent: {}
+[22.162888] (-) TimerEvent: {}
+[22.263292] (-) TimerEvent: {}
+[22.363645] (-) TimerEvent: {}
+[22.463985] (-) TimerEvent: {}
+[22.564282] (-) TimerEvent: {}
+[22.664574] (-) TimerEvent: {}
+[22.764861] (-) TimerEvent: {}
+[22.865141] (-) TimerEvent: {}
+[22.965420] (-) TimerEvent: {}
+[23.065710] (-) TimerEvent: {}
+[23.166051] (-) TimerEvent: {}
+[23.266471] (-) TimerEvent: {}
+[23.366808] (-) TimerEvent: {}
+[23.467187] (-) TimerEvent: {}
+[23.567527] (-) TimerEvent: {}
+[23.667814] (-) TimerEvent: {}
+[23.768134] (-) TimerEvent: {}
+[23.868468] (-) TimerEvent: {}
+[23.968820] (-) TimerEvent: {}
+[24.069156] (-) TimerEvent: {}
+[24.169504] (-) TimerEvent: {}
+[24.269856] (-) TimerEvent: {}
+[24.370198] (-) TimerEvent: {}
+[24.470577] (-) TimerEvent: {}
+[24.570964] (-) TimerEvent: {}
+[24.671294] (-) TimerEvent: {}
+[24.771639] (-) TimerEvent: {}
+[24.871923] (-) TimerEvent: {}
+[24.972262] (-) TimerEvent: {}
+[25.072605] (-) TimerEvent: {}
+[25.172900] (-) TimerEvent: {}
+[25.273185] (-) TimerEvent: {}
+[25.373590] (-) TimerEvent: {}
+[25.473908] (-) TimerEvent: {}
+[25.574244] (-) TimerEvent: {}
+[25.674617] (-) TimerEvent: {}
+[25.774922] (-) TimerEvent: {}
+[25.875169] (-) TimerEvent: {}
+[25.975449] (-) TimerEvent: {}
+[26.075751] (-) TimerEvent: {}
+[26.176088] (-) TimerEvent: {}
+[26.276480] (-) TimerEvent: {}
+[26.376853] (-) TimerEvent: {}
+[26.477251] (-) TimerEvent: {}
+[26.577628] (-) TimerEvent: {}
+[26.677892] (-) TimerEvent: {}
+[26.778245] (-) TimerEvent: {}
+[26.878598] (-) TimerEvent: {}
+[26.978854] (-) TimerEvent: {}
+[27.079116] (-) TimerEvent: {}
+[27.179375] (-) TimerEvent: {}
+[27.279676] (-) TimerEvent: {}
+[27.379978] (-) TimerEvent: {}
+[27.480323] (-) TimerEvent: {}
+[27.580681] (-) TimerEvent: {}
+[27.680996] (-) TimerEvent: {}
+[27.781442] (-) TimerEvent: {}
+[27.881785] (-) TimerEvent: {}
+[27.982202] (-) TimerEvent: {}
+[28.082524] (-) TimerEvent: {}
+[28.182892] (-) TimerEvent: {}
+[28.283174] (-) TimerEvent: {}
+[28.383520] (-) TimerEvent: {}
+[28.483809] (-) TimerEvent: {}
+[28.584105] (-) TimerEvent: {}
+[28.684423] (-) TimerEvent: {}
+[28.784814] (-) TimerEvent: {}
+[28.885138] (-) TimerEvent: {}
+[28.985492] (-) TimerEvent: {}
+[29.070363] (auto_shoot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable auto_shoot_node\x1b[0m\n'}
+[29.085618] (-) TimerEvent: {}
+[29.186077] (-) TimerEvent: {}
+[29.286436] (-) TimerEvent: {}
+[29.386773] (-) TimerEvent: {}
+[29.487148] (-) TimerEvent: {}
+[29.587570] (-) TimerEvent: {}
+[29.687911] (-) TimerEvent: {}
+[29.788363] (-) TimerEvent: {}
+[29.888653] (-) TimerEvent: {}
+[29.988991] (-) TimerEvent: {}
+[30.089420] (-) TimerEvent: {}
+[30.189810] (-) TimerEvent: {}
+[30.290190] (-) TimerEvent: {}
+[30.390585] (-) TimerEvent: {}
+[30.407251] (auto_shoot) StdoutLine: {'line': b'[100%] Built target auto_shoot_node\n'}
+[30.419006] (auto_shoot) CommandEnded: {'returncode': 0}
+[30.452572] (auto_shoot) JobProgress: {'identifier': 'auto_shoot', 'progress': 'install'}
+[30.453816] (auto_shoot) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot'], 'cwd': '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_GB:en'), ('USER', 'liujiawei'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/liujiawei'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2024.2.0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'liujiawei'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('RATH', '~/anaconda3/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2024.2.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liujiawei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/liujiawei/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liujiawei-Legion-Y9000P-IRX8:@/tmp/.ICE-unix/1819,unix/liujiawei-Legion-Y9000P-IRX8:/tmp/.ICE-unix/1819'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d0df2d5_86a8_4a26_b47b_171cf35e1c45'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.4845'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/liujiawei/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/liujiawei/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=13177c6d7e291a8832ab8305671c8150'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/intel/openvino_2024.2.0/python:/opt/intel/openvino_2024.2.0/python/python3:'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2024.2.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble')]), 'shell': False}
+[30.459506] (auto_shoot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.459808] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/lib/auto_shoot/auto_shoot_node\n'}
+[30.474119] (auto_shoot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/lib/auto_shoot/auto_shoot_node" to ""\n'}
+[30.474377] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/package_run_dependencies/auto_shoot\n'}
+[30.474473] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/parent_prefix_path/auto_shoot\n'}
+[30.474574] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.sh\n'}
+[30.474680] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.dsv\n'}
+[30.474893] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.sh\n'}
+[30.475055] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.dsv\n'}
+[30.475151] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.bash\n'}
+[30.475316] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.sh\n'}
+[30.475500] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.zsh\n'}
+[30.475693] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.dsv\n'}
+[30.475832] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.dsv\n'}
+[30.475971] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/packages/auto_shoot\n'}
+[30.476041] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig.cmake\n'}
+[30.476142] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig-version.cmake\n'}
+[30.476206] (auto_shoot) StdoutLine: {'line': b'-- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.xml\n'}
+[30.477847] (auto_shoot) CommandEnded: {'returncode': 0}
+[30.490701] (-) TimerEvent: {}
+[30.539654] (auto_shoot) JobEnded: {'identifier': 'auto_shoot', 'rc': 0}
+[30.540543] (-) EventReactorShutdown: {}

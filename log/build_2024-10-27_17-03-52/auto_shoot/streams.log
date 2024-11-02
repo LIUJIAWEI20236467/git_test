@@ -1,0 +1,63 @@
+[0.012s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/liujiawei/Desktop/schoolmatch_demo/src/auto_shoot -DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.636s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.683s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.688s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.698s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.785s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.788s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.896s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.928s] -- Found FastRTPS: /opt/ros/humble/include
+[0.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.076s] -- Found Threads: TRUE
+[1.151s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.198s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.226s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.236s] -- Found OpenCV: /usr/local (found version "4.7.0")
+[1.237s] -- Found tdt_interface: 0.0.1 (/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/share/tdt_interface/cmake)
+[1.334s] -- Configuring done (1.3s)
+[1.349s] -- Generating done (0.0s)
+[1.349s] -- Build files have been written to: /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot
+[1.360s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot' returned '0': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/liujiawei/Desktop/schoolmatch_demo/src/auto_shoot -DCMAKE_INSTALL_PREFIX=/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot
+[1.361s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot -- -j32 -l32
+[1.399s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_shoot_node.dir/src/autoShoot.cpp.o[0m
+[23.378s] [100%] [32m[1mLinking CXX executable auto_shoot_node[0m
+[24.715s] [100%] Built target auto_shoot_node
+[24.728s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot' returned '0': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot -- -j32 -l32
+[24.762s] Invoking command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot
+[24.767s] -- Install configuration: ""
+[24.767s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/lib/auto_shoot/auto_shoot_node
+[24.782s] -- Set non-toolchain portion of runtime path of "/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/lib/auto_shoot/auto_shoot_node" to ""
+[24.782s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/package_run_dependencies/auto_shoot
+[24.782s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/parent_prefix_path/auto_shoot
+[24.782s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.sh
+[24.782s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.dsv
+[24.782s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.sh
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.dsv
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.bash
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.sh
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.zsh
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.dsv
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.dsv
+[24.783s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/packages/auto_shoot
+[24.784s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig.cmake
+[24.784s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig-version.cmake
+[24.784s] -- Installing: /home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.xml
+[24.786s] Invoked command in '/home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot' returned '0': AMENT_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liujiawei/Desktop/schoolmatch_demo/install/tdt_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liujiawei/Desktop/schoolmatch_demo/build/auto_shoot

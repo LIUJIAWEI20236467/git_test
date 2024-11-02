@@ -1,0 +1,16 @@
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/lib/auto_shoot/auto_shoot_node
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/package_run_dependencies/auto_shoot
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/parent_prefix_path/auto_shoot
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.sh
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/ament_prefix_path.dsv
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.sh
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/environment/path.dsv
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.bash
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.sh
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.zsh
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/local_setup.dsv
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.dsv
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/ament_index/resource_index/packages/auto_shoot
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig.cmake
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/cmake/auto_shootConfig-version.cmake
+/home/liujiawei/Desktop/schoolmatch_demo/install/auto_shoot/share/auto_shoot/package.xml
